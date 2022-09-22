@@ -18,18 +18,27 @@ public class Spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		beatTime = bpm/60;
-		beatTimer = beatTime;
+		//beatTime = 1/(bpm/60); //prints one per beat
+		//beatTimer = beatTime;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		targetTime -= Time.deltaTime;
+
+/*
+	void FixedUpdate () {
+		beatTimer -= Time.deltaTime;
  
 		if (beatTimer <= 0.0f)
 		{
-			beatTimer = beatTime;
+			beatTimer += beatTime;
 			Instantiate(note,transform.position, Quaternion.identity);
-		}		
+		}	
 	}
+*/
+	public void sendNote () {
+		Instantiate(note,transform.position, Quaternion.identity);
+	}
+
+	// Update is called once per frame
+	//void Update () {
+		
+	//}
 }

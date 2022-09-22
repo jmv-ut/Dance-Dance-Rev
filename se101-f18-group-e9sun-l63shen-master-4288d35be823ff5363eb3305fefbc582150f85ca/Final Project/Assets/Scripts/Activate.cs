@@ -12,7 +12,7 @@ public class Activate : MonoBehaviour
     public KeyCode key;
     bool Active = false;
     public bool Visible = false;
-   // public string Score = "0000";
+    // public string Score = "0000";
     GameObject note;
     Color old;
     public bool createMode;
@@ -85,7 +85,7 @@ public class Activate : MonoBehaviour
 
     IEnumerator Pressed()
     {
-        sr.color = new Color(0, 0, 0);
+        sr.color = new Color(255, 255, 255);
         yield return new WaitForSeconds(0.05f);
         sr.color = old; 
     }
