@@ -53,17 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ComboScript.cs" />
-     <Compile Include="Assets\ComboText.cs" />
-     <Compile Include="Assets\Kill.cs" />
      <Compile Include="Assets\Scripts\Activate.cs" />
+     <Compile Include="Assets\Scripts\ComboScript.cs" />
+     <Compile Include="Assets\Scripts\ComboText.cs" />
      <Compile Include="Assets\Scripts\ControllerScript.cs" />
+     <Compile Include="Assets\Scripts\GameMaster.cs" />
+     <Compile Include="Assets\Scripts\Kill.cs" />
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\PPText.cs" />
      <Compile Include="Assets\Scripts\SongRunner.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\SpawnerContoller.cs" />
-     <Compile Include="Assets\TimeBar.cs" />
+     <Compile Include="Assets\Scripts\TimeBar.cs" />
      <None Include="Assets\Scenes\font info.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/jmvos/Documents/ClassWork/Play/DDR/Dance-Dance-Rev/se101-f18-group-e9sun-l63shen-master-4288d35be823ff5363eb3305fefbc582150f85ca/Final Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
