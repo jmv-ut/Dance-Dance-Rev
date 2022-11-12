@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Note
+  - DifficultySelect
+  - ready 0
+  - ready 1
+  - first start
+  - reverse
   layers:
   - Default
   - TransparentFX

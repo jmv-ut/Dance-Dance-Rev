@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PVP Mode.unity
+- path: Assets/NewBackupSynthwave.unity
   isLoaded: 1
   isActive: 1

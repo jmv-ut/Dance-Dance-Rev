@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Kill : MonoBehaviour {
 
     public KeyCode key;
     public bool Visible = false;
     GameObject note;
+    public Text opponentScoreText;
 
     // Use this for initialization
     void Start () {
@@ -24,8 +26,14 @@ public class Kill : MonoBehaviour {
         {
             //destroy object
             Destroy(col.gameObject);
+            addToOpponentScore();
             //KillCombo();
         }
+    }
+
+    private void addToOpponentScore(){
+        int scoreBase = int.Parse(opponentScoreText.text);
+        opponentScoreText.text = "" + (scoreBase + 1);
     }
 
     // void KillCombo()
